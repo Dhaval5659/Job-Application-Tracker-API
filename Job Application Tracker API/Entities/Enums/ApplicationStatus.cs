@@ -1,4 +1,4 @@
-﻿namespace Job_Application_Tracker_API.Entities
+﻿namespace Job_Application_Tracker_API.Entities.Enums
 {
     public enum ApplicationStatus
     {
