@@ -10,8 +10,8 @@ namespace Job_Application_Tracker_API.Entities
         public Guid JobApplicationId { get; set; }
         public Guid UserId { get; set; }
         public Guid CompanyId { get; set; }
-        public string JobTitle { get; set; }
-        public string JobDescription { get; set; }
+        public string? JobTitle { get; set; }
+        public string? JobDescription { get; set; }
         public decimal? OfferedSalary { get; set; }
         public ApplicationStatus Status { get; set; }
         public DateTime AppliedDate { get; set; }
