@@ -1,14 +1,4 @@
 ﻿{
-  "ConnectionStrings": {
-    "DefaultConnection": "YOUR_CONNECTION_STRING"
-  },
-
-  "Jwt": {
-    "Key": "ThisIsMySuperSecretKey123456789",
-    "Issuer": "JobTrackerAPI",
-    "Audience": "JobTrackerUsers"
-  },
-
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
